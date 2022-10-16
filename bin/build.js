@@ -18,6 +18,9 @@ const defaultSettings = {
   sourcemap: !production,
   target: production ? 'es2017' : 'esnext',
   entryPoints,
+  loader: {
+    '.png': 'binary',
+  },
 };
 
 // Files building

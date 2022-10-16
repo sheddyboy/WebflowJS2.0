@@ -8,6 +8,7 @@ specifiers:
   '@finsweet/tsconfig': ^1.1.0
   '@playwright/test': ^1.27.0
   '@trivago/prettier-plugin-sort-imports': ^3.3.0
+  '@types/intl-tel-input': ^17.0.5
   '@types/jquery': ^3.5.14
   '@typescript-eslint/eslint-plugin': ^5.39.0
   '@typescript-eslint/parser': ^5.39.0
@@ -16,11 +17,13 @@ specifiers:
   eslint: ^8.25.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
+  intl-tel-input: ^17.0.19
   prettier: ^2.7.1
   typescript: ^4.8.4
 
 dependencies:
   '@finsweet/ts-utils': 0.33.2
+  intl-tel-input: 17.0.19
 
 devDependencies:
   '@changesets/changelog-git': 0.1.13
@@ -29,6 +32,7 @@ devDependencies:
   '@finsweet/tsconfig': 1.1.0
   '@playwright/test': 1.27.0
   '@trivago/prettier-plugin-sort-imports': 3.3.0_prettier@2.7.1
+  '@types/intl-tel-input': 17.0.5
   '@types/jquery': 3.5.14
   '@typescript-eslint/eslint-plugin': 5.39.0_cfd7h3iktziq6hcwahu2qxhjhy
   '@typescript-eslint/parser': 5.39.0_z4bbprzjrhnsfa24uvmcbu7f5q
@@ -662,6 +666,12 @@ packages:
       prettier: 2.7.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@types/intl-tel-input/17.0.5:
+    resolution: {integrity: sha512-Fy78eswLvfx82vZ/N5/gsC9Cping2PNSU28VIcs4frmVwH2rnoyiRhwEMrMrUeZ1NiuvDxHrsTMwz6CDpngbBg==}
+    dependencies:
+      '@types/jquery': 3.5.14
     dev: true
 
   /@types/is-ci/3.0.0:
@@ -1929,6 +1939,10 @@ packages:
       has: 1.0.3
       side-channel: 1.0.4
     dev: true
+
+  /intl-tel-input/17.0.19:
+    resolution: {integrity: sha512-GBNoUT4JVgm2e1N+yFMaBQ24g5EQfZhDznGneCM9IEZwfKsMUAUa1dS+v0wOiKpRAZ5IPNLJMIEEFGgqlCI22A==}
+    dev: false
 
   /is-arrayish/0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
