@@ -38,7 +38,7 @@ export const draftScript = () => {
         metadata.drafts = updatedDraft;
         member.updateMetaData(metadata);
 
-        $(this).parent().parent().hide();
+        $(this).parent().hide();
       });
     });
 
