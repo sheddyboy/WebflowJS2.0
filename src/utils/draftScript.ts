@@ -10,15 +10,15 @@ export const draftScript = () => {
         $('#draft-list').append(
           `    
       <div class="my-draft-wrapper">
-      	<p id="w-node-_6ae66e4d-a4b7-e39a-3376-87bc060556c7-fb5bb4b4" class="my-draft-name">${i.draftAdvertisementName}</p>
+        <p id="w-node-_6ae66e4d-a4b7-e39a-3376-87bc060556c7-fb5bb4b4" class="my-draft-name">${i.draftAdvertisementName}</p>
         <div id="w-node-_5fca7bde-0e3b-f0b5-c695-96932b0088ba-fb5bb4b4" class="my-draft-status">
-        	<div class="indication-color orange"></div>
-        	<p class="paragraph-44-copy">Not&nbsp;Submitted</p>
-  			</div>
+          <div class="indication-color orange"></div>
+          <p class="paragraph-44-copy">Not&nbsp;Submitted</p>
+        </div>
         <p id="w-node-_15ccddc9-7f5f-b3b5-60d8-cadb8711d927-fb5bb4b4" class="my-draft-date">${i.date}</p>
-        <div id="w-node-_999218cc-8f57-4706-b025-530a0d94a632-fb5bb4b4" class="div-block-139">
-        	<div class="edit-draft-btn" draft-id=${i.id} >Edit</div>
-          <div class="delete-draft-btn" draft-id=${i.id} >Delete</div>
+        <div id="w-node-_29b24b60-15ad-19e3-ea07-07bc0c2b5581-fb5bb4b4" class="edit-draft-btn" draft-id=${i.id}>Edit</div>
+        <div id="w-node-_3f32c289-c84d-2ed5-03bf-2ab477d9bd2c-fb5bb4b4" class="delete-draft-btn" draft-id=${i.id}>
+          Delete
         </div>
       </div>
         `
