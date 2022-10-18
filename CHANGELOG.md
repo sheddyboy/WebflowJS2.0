@@ -1,5 +1,11 @@
 # @valvest/developer-starter
 
+## 1.0.3
+
+### Patch Changes
+
+- 7e6f262: Added Profile script
+
 ## 1.0.2
 
 ### Patch Changes
