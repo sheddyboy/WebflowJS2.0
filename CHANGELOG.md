@@ -1,5 +1,12 @@
 # @valvest/developer-starter
 
+## 1.0.5
+
+### Patch Changes
+
+- 05a367b: draft bug fix
+- 09530c0: Delete Draft bug fixed
+
 ## 1.0.4
 
 ### Patch Changes
